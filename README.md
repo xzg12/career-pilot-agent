@@ -22,29 +22,6 @@
 
 CareerPilot 是一个面向秋招和日常求职的 AI Agent 应用。基于 LangChain 框架实现的 **ReAct（Reasoning + Acting）Agent**，集成 RAG 检索增强、多工具调用和 SQLite 业务数据管理。Agent 能根据用户意图自主判断任务类型（知识问答 / 岗位分析 / 面试准备 / 投递跟踪），调用合适的工具和知识库完成推理，并通过 Streamlit 流式界面实时展示 Agent 的思考与执行过程。
 
-## 效果展示
-
-<div align="center">
-
-<img src="assets/chat1.png" alt="问答界面" width="85%">
-
-*图1. 普通问答 — RAG 检索求职知识库回复*
-
-&nbsp;
-
-<img src="assets/chat2.png" alt="工具调用" width="85%">
-
-*图2. Agent 工具调用 — 实时展示推理与工具执行链路*
-
-&nbsp;
-
-<img src="assets/chat3.png" alt="工具调用详情" width="85%">
-
-*图3. 工具调用详情 — 多步推理与中间结果可视化*
-
-&nbsp;
-
-</div>
 
 ## 技术架构
 
