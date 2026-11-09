@@ -1,0 +1,32 @@
+﻿collection_name : career_pilot
+persist_directory : chroma_db
+k : 3
+
+# 只扫描知识目录：示例简历、jobs.json 等演示数据放在 data/career 根下，
+# 不进知识库，避免被检索命中污染回答
+data_path : data/career/knowledge
+md5_hex_store : md5.txt
+allow_knowledge_file_type : ["txt","pdf","md"]
+
+# chunk 从 200 提到 400：200 字符会把一个完整观点切碎，检索到的片段缺少上下文
+# overlap 提到 60：约 15% 重叠，保证跨段落的论证不被切断
+chunk_size : 400
+chunk_overlap : 60
+# 优先按段落和中文句号切分，避免在语义中间断开
+separators : ["\n## ","\n### ","\n\n","。",".","?","？","!"," ",""]
+
+# 检索重排：先扩大召回，再用 LLM 打分排序
+#
+# 默认关闭——这是评测得出的结论，不是没实现：
+# 在 23 条评测用例上，纯向量 Hit@3=100% / MRR=0.978 已经到顶，
+# 开重排后指标完全相同（k=1 时也是 95.7% 持平），但每次问答多一次 LLM 调用。
+# 所以当前语料规模（85 片段）下不划算。
+#
+# 什么时候应该打开：
+#   - 语料涨到上千片段，向量召回噪声明显上升
+#   - 把 top_n 收紧到 1~2 条（重排的排序能力才能体现）
+#   - 查询普遍很模糊（口语化、跨主题）
+# 改 true 即可启用，评测脚本也支持 --rerank 单独对比。
+rerank_enabled : false
+rerank_recall_k : 8     # 重排前的召回数量
+rerank_top_n : 3        # 重排后保留的片段数

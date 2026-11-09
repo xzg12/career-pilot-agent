@@ -1,0 +1,26 @@
+[
+  {"id": "resume-01", "query": "简历要不要放照片", "expect": ["01-简历结构与人岗匹配.md"], "note": "扣分项里有明确回答"},
+  {"id": "resume-02", "query": "简历里的自我评价该怎么写", "expect": ["01-简历结构与人岗匹配.md"], "note": "自我评价空洞是扣分项"},
+  {"id": "resume-03", "query": "项目经历怎么写出量化结果", "expect": ["02-项目经历的写法.md"], "note": "量化维度表"},
+  {"id": "resume-04", "query": "简历文件应该怎么命名", "expect": ["01-简历结构与人岗匹配.md"], "note": "命名与投递格式小节"},
+  {"id": "interview-01", "query": "面试前应该做哪些准备", "expect": ["01-面试准备流程.md"], "note": "三天法"},
+  {"id": "interview-02", "query": "线上面试要注意什么", "expect": ["01-面试准备流程.md"], "note": "远程面试环境准备"},
+  {"id": "interview-03", "query": "ReAct 和 Function Calling 有什么区别", "expect": ["02-技术面试高频问题.md"], "note": "Agent 相关高频问题"},
+  {"id": "interview-04", "query": "RAG 的幻觉怎么控制", "expect": ["02-技术面试高频问题.md"], "note": "幻觉控制三种手段"},
+  {"id": "interview-05", "query": "STAR 法则的篇幅该怎么分配", "expect": ["03-行为面试与STAR法则.md"], "note": "各占比表"},
+  {"id": "interview-06", "query": "问我的缺点是什么应该怎么回答", "expect": ["03-行为面试与STAR法则.md"], "note": "高频行为题"},
+  {"id": "interview-07", "query": "群面和无领导小组讨论怎么准备", "expect": ["04-群面与无领导小组讨论.md"], "note": "补文档前应失败，用于验证新增是否生效"},
+  {"id": "job-01", "query": "AI 应用开发需要学哪些技术", "expect": ["01-AI应用开发技能图谱.md"], "note": "核心技术栈"},
+  {"id": "job-02", "query": "怎么判断自己和一个岗位的匹配度", "expect": ["02-岗位JD解读与匹配度评估.md"], "note": "加权打分算法"},
+  {"id": "job-03", "query": "JD 里写熟悉某技术者优先是什么意思", "expect": ["02-岗位JD解读与匹配度评估.md"], "note": "硬性条件措辞判断"},
+  {"id": "process-01", "query": "秋招什么时候开始投递比较好", "expect": ["01-投递策略与节奏管理.md"], "note": "四个阶段时间线"},
+  {"id": "process-02", "query": "投递之后多久跟进比较合适", "expect": ["01-投递策略与节奏管理.md"], "note": "7 到 10 个工作日"},
+  {"id": "process-03", "query": "面试通过后怎么谈薪资", "expect": ["02-谈薪与offer决策.md"], "note": "谈薪沟通方式"},
+  {"id": "process-04", "query": "两个 offer 的总包怎么比较才准确", "expect": ["02-谈薪与offer决策.md"], "note": "总包换算示例"},
+
+  {"id": "hard-01", "query": "简历准备好了，投递节奏该怎么安排", "expect": ["01-投递策略与节奏管理.md"], "note": "难例：口语化；原问法有歧义（也可能指简历优化），已改为明确指向投递"},
+  {"id": "hard-02", "query": "面试官问我有几个 offer 我该怎么答", "expect": ["02-谈薪与offer决策.md"], "note": "难例：把「几个 offer」说成谈薪场景"},
+  {"id": "hard-03", "query": "群面里插不上话怎么办", "expect": ["04-群面与无领导小组讨论.md"], "note": "难例：场景描述而非概念名"},
+  {"id": "hard-04", "query": "项目做完了但是没什么数据，简历上怎么写", "expect": ["02-项目经历的写法.md"], "note": "难例：条件限定+口语"},
+  {"id": "hard-05", "query": "技术面和 HR 面考察的东西一样吗", "expect": ["01-面试准备流程.md"], "note": "难例：比较型提问，跨环节"}
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "company": "云启科技",
+    "title": "AI 应用开发工程师",
+    "city": "杭州",
+    "source": "示例岗位库",
+    "description": "负责企业级大模型应用开发，建设 RAG、Agent 和知识库问答系统。要求熟悉 Python，掌握 LangChain 或 LangGraph，理解向量数据库、Prompt Engineering 和 LLM API；有 FastAPI、Docker、PostgreSQL 或 Redis 经验优先。需要能够设计工具调用、异常处理、评测和监控方案。"
+  },
+  {
+    "company": "星河智能",
+    "title": "Python 后端开发工程师",
+    "city": "深圳",
+    "source": "示例岗位库",
+    "description": "负责数据与智能业务后端服务开发。要求熟悉 Python、FastAPI 或 Django、MySQL/PostgreSQL、Redis、REST API 和 Linux；有 Docker、异步编程、消息队列和高并发服务经验。参与接口设计、代码评审、测试和线上问题排查。"
+  },
+  {
+    "company": "知行实验室",
+    "title": "大模型应用算法实习生",
+    "city": "上海",
+    "source": "示例岗位库",
+    "description": "参与大模型应用算法研发，包括文本分类、信息抽取、RAG、Agent 工作流和模型评测。要求熟悉 Python，了解 Transformer、Embedding、向量检索和 Prompt；有论文复现、NLP 项目或 LangChain 项目经验。"
+  },
+  {
+    "company": "瀚海数据",
+    "title": "数据分析实习生",
+    "city": "杭州",
+    "source": "示例岗位库",
+    "description": "负责业务数据清洗、指标统计、报表维护和分析结论输出。要求熟悉 SQL、Excel、Python Pandas，具备良好的数据敏感度和沟通能力；有 BI 工具或 A/B 测试经验优先。"
+  },
+  {
+    "company": "安全盾科技",
+    "title": "后端研发工程师（高并发方向）",
+    "city": "上海",
+    "source": "示例岗位库",
+    "description": "负责核心交易服务和高并发接口研发。要求熟悉 Go 或 Java，掌握微服务、消息队列、Redis、MySQL 分库分表和分布式系统；需要有线上大流量系统开发经验。Python 仅作为脚本语言使用。"
+  },
+  {
+    "company": "未来教育",
+    "title": "AI 产品实习生",
+    "city": "杭州",
+    "source": "示例岗位库",
+    "description": "参与 AI 学习产品的需求分析、竞品调研、Prompt 设计、用户反馈整理和效果评测。要求对生成式 AI 有兴趣，能使用 Python 完成简单数据分析，具备产品文档和跨团队沟通能力。"
+  }
+]

@@ -1,0 +1,23 @@
+姓名：林默（示例数据）
+学历：计算机相关专业硕士，预计 2027 年毕业
+求职方向：AI 应用开发工程师、Python 后端工程师
+期望城市：杭州、深圳、上海
+
+技能：Python、FastAPI、SQL、LangChain、LangGraph、RAG、Chroma、Streamlit、Docker 基础、Git；了解 Redis、PostgreSQL、向量检索、Prompt Engineering 和 LLM API 调用。
+
+项目一：CareerPilot 求职管理 Agent（个人项目）
+- 使用 LangChain 和 LangGraph 构建 ReAct Agent，支持岗位检索、简历分析、投递跟踪和面试准备。
+- 使用 Chroma 构建求职知识库，完成文档切分、向量化、Top-K 检索和 RAG 回答。
+- 使用 SQLite 保存候选人资料、岗位、投递记录和面试安排，工具通过结构化输入调用数据库。
+- 使用 Streamlit 实现对话式界面，展示工具执行状态和分析结果。
+
+项目二：校园知识库问答系统
+- 使用 Python、FastAPI 和 Chroma 搭建文档问答服务，支持 PDF/TXT 导入和增量索引。
+- 通过元数据过滤区分学院、文档类型和学期，减少无关内容进入上下文。
+- 增加引用片段展示和“未找到依据”兜底策略。
+
+项目三：实验数据分析平台
+- 使用 Pandas 和 SQL 完成实验数据清洗、统计分析和结果导出。
+- 编写 REST API 为前端提供查询接口，使用 Git 管理版本。
+
+待提升：缺少真实生产部署经验；对异步任务、Redis、PostgreSQL、CI/CD 和 LLM 评测体系掌握不够深入；缺少大型团队协作经历。

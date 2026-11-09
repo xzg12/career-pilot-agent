@@ -1,0 +1,15 @@
+﻿# 模型 ID 必须与百炼控制台「模型广场」中实际可用的名称一致，否则会返回 404 Model not exist
+chat_model_name: qwen-plus
+vision_model_name: qwen3-vl-plus
+embedding_model_name: text-embedding-v4
+
+# 统一走 OpenAI 兼容接口（DashScope compatible-mode）
+# 换供应商时只改这里，代码无需改动
+base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+
+# 请求超时（秒）。ChatTongyi 原生接口未设置超时，这里显式加上避免工具调用卡死
+timeout: 120
+
+# embedding 单批条数：DashScope text-embedding-v4 单次最多 10 条，
+# 超过会被拒，所以必须显式限制（OpenAIEmbeddings 默认 1000）
+embedding_batch_size: 10
